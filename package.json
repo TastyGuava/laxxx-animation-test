@@ -1,0 +1,22 @@
+{
+  "name": "laxxx-test",
+  "version": "1.0.0",
+  "description": "a test of the laxxx library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TastyGuava/laxxx-animation-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TastyGuava/laxxx-animation-test/issues"
+  },
+  "homepage": "https://github.com/TastyGuava/laxxx-animation-test#readme",
+  "dependencies": {
+    "lax.js": "^1.2.3"
+  }
+}

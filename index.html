@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Laxxx Test</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+        <section class="intro">
+            <p class="scroll-text">Scroll down</p>
+        </section>
+        <section class="anim">
+            <h1 data-lax-preset="rightToLeft-.1 fadeInOut">Animation</h1>
+            <p class="desc" data-lax-preset="blurInOut fadeInOut">Check out this nifty little scroll based animation
+                with laxxx.js</p>
+            <div class="box1" data-lax-preset="spin"></div>
+            <div class="box2" data-lax-scale="700 0, 500 1, 100 1, 0 0" data-lax-anchor="self"></div>
+        </section>
+        <section></section>
+
+        <script src="node_modules/lax.js/lib/lax.min.js"></script>
+
+        <script>
+        
+            window.onload = function() {
+            lax.setup() // init
+
+            document.addEventListener('scroll', function(e) {
+                lax.update(window.scrollY) // update every scroll
+            }, false)
+        }
+            
+            </script>
+</body>
+</html>
